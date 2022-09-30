@@ -43,6 +43,8 @@ O acompanhamento da inscrição pode ser realizado através do menu GESTÃO DE P
 
 .. image:: menu-inscricoes.png
 
+.. image:: minha-inscricao.png
+
 
 
 
