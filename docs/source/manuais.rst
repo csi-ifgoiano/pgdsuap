@@ -41,7 +41,7 @@ Se inscrevendo em edital do PGD...
 
 O acompanhamento da inscrição pode ser realizado através do menu GESTÃO DE PESSOAS - Programa de Gestão - Inscrições.
 
-.. image:: inscricoes.png
+.. image:: menu-inscricoes.png
 
 
 
