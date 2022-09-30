@@ -18,7 +18,7 @@ No módulo do PGD do SUAP, o servidor pode:
 
 
 
-Se inscrevendo em edital do PGD...
+Inscrição em edital do PGD
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 **Passo 1:** Acessar o SUAP.
@@ -46,7 +46,7 @@ O acompanhamento da inscrição pode ser realizado através do menu GESTÃO DE P
 .. image:: minha-inscricao.png
 
 
-Proposição de planos de trabalho...
+Proposição de plano de trabalho
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 **Passo 1:** Acessar o SUAP.
@@ -73,10 +73,40 @@ O usuário será redirecionado para a tela com as informações do plano de trab
 
 .. image:: acoes-add-atividade.png
 
-**Passo 6:** Escolher, por atividade, o tipo de atividade (cadastrado na tabela de atividades), a descrição e a faixa de complexidade.
+**Passo 6:** Escolher, por atividade, o tipo de atividade (cadastrado na tabela de atividades), a descrição e a faixa de complexidade. O procedimento deve ser executado para todas as atividades do plano.
 
 .. image:: form-add-atividade.png
 
+Após adicionadas todas as atividades o plano deve ficar similar ao seguinte:
+
+.. image:: tela-plano-preenchido.png
+
+**Passo 7:** Ao finalizar o prenchimento do plano deve-se "Encaminhar" para a chefia imediata autorizar.
+
+.. image:: acoes-add-atividade.png
+
+Execução de plano de trabalho
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+**Passo 1:** Acessar o SUAP.
+
+.. image:: suap.png
+
+**Passo 2:** Acessar o menu "GESTÃO DE PESSOAS - Programa de Gestão - Planos de Trabalho".
+
+.. image:: tela-planos-autorizados.png
+
+**Passo 3:** Selecionar plano através da lupa.
+
+.. image:: plano-registrar-entrega.png
+
+**Passo 4:** Selecionar a atividade que deve ser registrada a entrega e selecionar "Registrar Entrega".
+
+.. image:: form-reg-entrega-1.png
+.. image:: form-reg-entrega-2.png
+.. image:: form-reg-entrega-3.png
+
+----------------
 Chefias
 ----------------
 
