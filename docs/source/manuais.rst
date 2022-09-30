@@ -37,6 +37,13 @@ Se inscrevendo em edital do PGD...
 
 .. image:: inscricao.png
 
+**Passo 5:** Enviar inscrição e aguardar a mensagem "Inscrição realizada com sucesso!".
+
+O acompanhamento da inscrição pode ser realizado através do menu GESTÃO DE PESSOAS - Programa de Gestão - Inscrições.
+
+.. image:: inscricoes.png
+
+
 
 
 Chefias
