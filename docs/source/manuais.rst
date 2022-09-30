@@ -123,7 +123,6 @@ Um exemplo de cronograma está na tabela a seguir, as atividades em azul estão 
 .. image:: cronograma-plano.png
 
 
-----------------
 Chefias
 ----------------
 
