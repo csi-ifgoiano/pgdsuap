@@ -110,7 +110,7 @@ Execução de plano de trabalho
 
 .. image:: tela-plano-atividades-entregues.png
 
-**Passo 6:** Após todas as atividades entregas, selecionar a opção "Realizar Entrega", para entregar o relatório.
+**Passo 6:** Após todas as atividades entregues, selecionar a opção "Realizar Entrega", para entregar o relatório.
 
 .. image:: acoes-realizar-entrega.png
 
@@ -118,7 +118,7 @@ Caso o relatório tenha atividade entregue, é possível visualizar o cronograma
 
 .. image:: botao-cronograma.png
 
-Um exempo de cronograma está na tabela a seguir, as atividades em azul estão entregues e as atividades em verde foram avaliadas pela chefia.
+Um exemplo de cronograma está na tabela a seguir, as atividades em azul estão entregues e as atividades em verde foram avaliadas pela chefia.
 
 .. image:: cronograma-plano.png
 
