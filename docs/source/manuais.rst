@@ -71,7 +71,7 @@ O usuário será redirecionado para a tela com as informações do plano de trab
 
 **Passo 5:** Deve-se adicionar as atividades ao plano de trabalho.
 
-.. image:: acoes-add-atividades.png
+.. image:: acoes-add-atividade.png
 
 **Passo 6:** Escolher, por atividade, o tipo de atividade (cadastrado na tabela de atividades), a descrição e a faixa de complexidade.
 
