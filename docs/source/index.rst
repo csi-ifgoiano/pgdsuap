@@ -1,4 +1,4 @@
-Programa de Gestão e Desempenho (PGD) - IF Goiano
+Programa de Gestão e Desempenho (PGD) - SUAP
 ===========================================
 
 A Coordenação-Geral de Desenvolvimento de Pessoas da Rede Federal (CGDP), 
