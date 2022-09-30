@@ -29,6 +29,16 @@ Se inscrevendo em edital do PGD...
 
 .. image:: edital-pgd.png
 
+**Passo 3:** Ver informações do edital.
+
+.. image:: info-edital.png
+
+**Passo 4:** Selecionar modalidade que deseja participar no PGD (Presencial, Teletrabalho Parcial, Teletrabalho Integral) e dar aceite em termo de compromisso.
+
+.. image:: inscricao.png
+
+
+
 Chefias
 ----------------
 
