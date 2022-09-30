@@ -2,7 +2,7 @@
 
 # -- Project information
 
-project = 'PGD IF Goiano'
+project = 'PGD SUAP'
 copyright = '2022, CSI'
 author = 'Coordenação de Sistemas de Informação'
 
