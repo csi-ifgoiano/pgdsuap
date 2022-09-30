@@ -23,7 +23,11 @@ Se inscrevendo em edital do PGD...
 
 **Passo 1:** Acessar o SUAP.
 
-.. image:: images/suap-login.png
+.. image:: suap.png
+
+**Passo 2:** Selecionar o edital em aberto na parte de "FIQUE ATENTO!", na tela inicial do SUAP.
+
+.. image:: edital-pgd.png
 
 Chefias
 ----------------
