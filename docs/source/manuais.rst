@@ -100,11 +100,28 @@ Execução de plano de trabalho
 
 .. image:: plano-registrar-entrega.png
 
-**Passo 4:** Selecionar a atividade que deve ser registrada a entrega e selecionar "Registrar Entrega".
+**Passo 4:** Selecionar a atividade que deve ser registrada a entrega e selecionar "Registrar Entrega". O sistema irá abrir o formulário de registro da entrega. 
 
 .. image:: form-reg-entrega-1.png
 .. image:: form-reg-entrega-2.png
 .. image:: form-reg-entrega-3.png
+
+**Passo 5:** Após preenchimento do formulário, selecionar "Salvar". A operação deve ser realizada para todas as atividades.
+
+.. image:: tela-plano-atividades-entregues.png
+
+**Passo 6:** Após todas as atividades entregas, selecionar a opção "Realizar Entrega", para entregar o relatório.
+
+.. image:: acoes-realizar-entrega.png
+
+Caso o relatório tenha atividade entregue, é possível visualizar o cronograma, selecionando o botão "Cronograma".
+
+.. image:: botao-cronograma.png
+
+Um exempo de cronograma está na tabela a seguir, as atividades em azul estão entregues e as atividades em verde foram avaliadas pela chefia.
+
+.. image:: cronograma-plano.png
+
 
 ----------------
 Chefias
