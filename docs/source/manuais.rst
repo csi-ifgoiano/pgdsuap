@@ -46,7 +46,36 @@ O acompanhamento da inscrição pode ser realizado através do menu GESTÃO DE P
 .. image:: minha-inscricao.png
 
 
+Proposição de planos de trabalho...
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+**Passo 1:** Acessar o SUAP.
+
+.. image:: suap.png
+
+**Passo 2:** Acessar o menu "GESTÃO DE PESSOAS - Programa de Gestão - Planos de Trabalho".
+
+.. image:: menu-plano.png
+
+**Passo 3:** Selecionar a opção "Adicionar Plano".
+
+.. image:: add-plano.png
+
+**Passo 4:** Preencher intervalo do plano (data de início e data de fim).
+
+.. image:: form-plano.png
+
+O usuário será redirecionado para a tela com as informações do plano de trabalho.
+
+.. image:: tela-plano.png
+
+**Passo 5:** Deve-se adicionar as atividades ao plano de trabalho.
+
+.. image:: acoes-add-atividades.png
+
+**Passo 6:** Escolher, por atividade, o tipo de atividade (cadastrado na tabela de atividades), a descrição e a faixa de complexidade.
+
+.. image:: form-add-atividade.png
 
 Chefias
 ----------------
