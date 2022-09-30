@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'PGD IF Goiano'
+copyright = '2022, CSI'
+author = 'Coordenação de Sistemas de Informação'
 
 release = '0.1'
 version = '0.1.0'
@@ -33,3 +33,7 @@ html_theme = 'sphinx_rtd_theme'
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
+
+language = 'pt'
+locale_dirs=['locale/']
+gettext_compact = True
