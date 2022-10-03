@@ -215,3 +215,21 @@ Avaliação de atividades entregues
 **Passo 5:** Todas as atividades devem ser avaliadas. A própria chefia também possui permissão de fechar o plano do servidor através de "Ações - Fechar plano"
 
 .. image:: acoes-fechar-plano.png
+
+Estatísticas do setor
+
+**Passo 1:** Acessar o SUAP.
+
+.. image:: suap.png
+
+**Passo 2:** Acessar o menu "GESTÃO DE PESSOAS - Programa de Gestão - Relatórios - Desempenho".
+
+.. image:: menu-desempenho.png
+
+**Passo 3:** Selecionar o setor para ver desempenho e escolher para selecionar ou não sub-setores na árvore.
+
+.. image:: estatisticas-setor-1.png
+.. image:: estatisticas-setor-2.png
+
+
+
