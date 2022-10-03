@@ -36,6 +36,13 @@ Cadastro de Tabela de Complexidade
 
 .. image:: form-complexidade.png
 
+.. Note::
+
+   * O campo "Tempo de Execução em Presencial" é o tempo estimado que a atividade demora pra ser executada em regime presencial;
+   * O campo "Tempo de Execução em Prog. de Gestão" é o tempo estimado que a atividade demora pra ser executada em regime de programa de gestão;
+   * O campo "Faixa de Complexidade" é a descrição da faixa de complexidade;
+   * O campo "Parâmetros de Complexidade" são os parâmetros adotados para definição da faixa de complexidade cadastrada.
+
 
 Cadastro de Tabela de Atividades
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
