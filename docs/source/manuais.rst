@@ -227,7 +227,7 @@ Avaliação de atividades entregues
 
 .. Note::
 
-   Antes de autorizar todas as atividades, o chefe pode adicionar novas atividades através de "Açẽes - Adicionar Atividade".
+   Antes de autorizar todas as atividades, o chefe pode adicionar novas atividades através de "Ações - Adicionar Atividade".
 
 **Passo 4:** Selecionar atividade que deseja avaliar e selecionar "Avaliar Entrega". Será aberto o formulário para avaliação da atividade.
 
