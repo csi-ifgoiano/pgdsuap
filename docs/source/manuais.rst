@@ -227,7 +227,7 @@ Estatísticas do setor
 
 .. image:: menu-desempenho.png
 
-**Passo 3:** Selecionar o setor para ver desempenho e escolher para selecionar ou não sub-setores na árvore.
+**Passo 3:** Selecionar o setor para ver desempenho e escolher para selecionar ou não sub-setores do organograma.
 
 .. image:: form-desempenho-setor.png
 
