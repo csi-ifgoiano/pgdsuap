@@ -428,7 +428,7 @@ A chefia também pode acompanhar as situações dos planos através da tela inic
 
 
 Relatórios Públicos
-^^^^^^^^^^^^^^^^^^^
+--------------------
 
 **Painel Público de Indicadores**
 
