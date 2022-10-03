@@ -22,11 +22,19 @@ Cadastro de Tabela de Complexidade
 
 **Passo 1**: Acessar o SUAP.
 
+.. image:: suap.png
+
 **Passo 2**: Acessar o menu "GESTÃO DE PESSOAS - Cadastros - Complexidade.
+
+.. image:: menu-complexidade.png
 
 **Passo 3**: Selecionar "Adicionar Faixa de Complexidade".
 
+.. image:: faixa-complexidade.png
+
 **Passo 4**: Preencher formulário e "Salvar".
+
+.. image:: form-complexidade.png
 
 
 Cadastro de Tabela de Atividades
@@ -34,22 +42,38 @@ Cadastro de Tabela de Atividades
 
 **Passo 1**: Acessar o SUAP.
 
+.. image:: suap.png
+
 **Passo 2**: Acessar o menu "GESTÃO DE PESSOAS - Cadastros - Atividades.
+
+.. image:: menu-tabela-atividade.png
 
 **Passo 3**: Selecionar "Adicionar Atividade".
 
+.. image:: tabela-atividades.png
+
 **Passo 4**: Preencher formulário e "Salvar".
+
+.. image:: form-atividade.png
 
 Cadastro de Editais
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 **Passo 1**: Acessar o SUAP.
 
+.. image:: suap.png
+
 **Passo 2**: Acessar o menu "GESTÃO DE PESSOAS - Cadastros - Editais.
+
+.. image:: menu-edital.png
 
 **Passo 3**: Selecionar "Adicionar Edital".
 
+.. image:: editais.png
+
 **Passo 4**: Preencher formulário e "Salvar".
+
+.. image:: form-edital.png
 
 Servidores
 ------------
