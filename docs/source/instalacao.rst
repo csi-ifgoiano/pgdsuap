@@ -28,6 +28,9 @@ Habilitar aplicações no arquivo de configuração do SUAP (suap/settings.py)
    
 Sincronizar SUAP
 
+API
+---------
+
 .. code-block:: console
 
    python manage.py sync
