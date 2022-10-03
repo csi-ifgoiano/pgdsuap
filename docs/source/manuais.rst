@@ -10,7 +10,8 @@ No módulo do PGD do SUAP, o servidor pode:
 * Propor planos trabalho para execução;
 * Executar planos de trabalho propostos;
 * Finalizar planos de trabalho avaliados pela chefia imediata;
-* Reabrir planos finalizados para correção.
+* Reabrir planos finalizados para correção;
+* Acompanhar quadro geral de planos e atividades no PGD.
 
 .. Note::
 
@@ -18,8 +19,8 @@ No módulo do PGD do SUAP, o servidor pode:
 
 
 
-Inscrição em edital do PGD
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Inscrição em edital
+^^^^^^^^^^^^^^^^^^^^
 
 **Passo 1:** Acessar o SUAP.
 
@@ -132,4 +133,68 @@ O servidor pode visualizar seu quadro geral de participação no PGD através do
 Chefias
 ----------------
 
+No módulo do PGD do SUAP, a chefia pode:
 
+* Autorizar atividades e planos propostos pelo servidor vinculado;
+* Avaliar atividades e planos entregues pelo servidor vinculado;
+* Incluir atividades nos planos de trabalho do servidor vinculado;
+* Visualizar relatórios de boletins de desempenho do setor vinculado.
+
+.. Note::
+
+Para executar as operações deste manual, a chefia deve possuir usuário ativo no SUAP e habilitação como chefe (titular ou substituto). Esta habilitação deve ser realizada através da gestão de pessoas.
+
+
+Autorização de atividades e planos
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+**Passo 1:** Acessar o SUAP.
+
+.. image:: suap.png
+
+**Passo 2:** Acessar o menu "GESTÃO DE PESSOAS - Programa de Gestão - Planos de Trabalho" na aba "Encaminhados".
+
+.. image:: planos-encaminhados.png
+
+**Passo 3:** Selecionar plano que deseja autorizar através da lupa.
+
+.. image:: plano-autorizar.png
+
+**Passo 4:** Selecionar a atividade que deseja autorizar e selecionar "Autorizar Atividade". Será aberto o formulário de autorização da atividade.
+
+.. image:: form-autorizar-atividade.png
+
+**Passo 5:** Procedimento deve ser realizado para todas as atividades. Por fim, deve-se autorizar o plano através de "Ações - Avaliar".
+
+.. image:: acoes-avaliar-plano.png
+
+**Passo 6:** Marcar o plano como "Autorizado" e "Salvar".
+
+.. image:: form-autorizar-plano.png
+
+O plano autorizado poderá ser executado pelo servidor. Após executado ele será entregue para avaliação da chefia.
+
+Avaliação de atividades entregues
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+**Passo 1:** Acessar o SUAP.
+
+.. image:: suap.png
+
+**Passo 2:** Acessar o menu "GESTÃO DE PESSOAS - Programa de Gestão - Planos de Trabalho" na aba "Entregues".
+
+.. image:: planos-entregues.png
+
+**Passo 3:** Selecionar plano que deseja avaliar através da lupa.
+
+.. image:: tela-avaliar-entrega.png
+
+**Passo 4:** Selecionar atividade que deseja avaliar e selecionar "Avaliar Entrega". Será aberto o formulário para avaliação da atividade.
+
+.. image:: form-avaliar-entrega-1.png
+.. image:: form-avaliar-entrega-2.png
+.. image:: form-avaliar-entrega-3.png
+
+**Passo 5:** Todas as atividades devem ser avaliadas. A própria chefia também possui permissão de fechar o plano do servidor através de "Ações - Fechar plano"
+
+.. image:: acoes-fechar-plano.png
