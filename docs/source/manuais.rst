@@ -217,6 +217,7 @@ Avaliação de atividades entregues
 .. image:: acoes-fechar-plano.png
 
 Estatísticas do setor
+^^^^^^^^^^^^^^^^^^^^^^
 
 **Passo 1:** Acessar o SUAP.
 
@@ -227,6 +228,10 @@ Estatísticas do setor
 .. image:: menu-desempenho.png
 
 **Passo 3:** Selecionar o setor para ver desempenho e escolher para selecionar ou não sub-setores na árvore.
+
+.. image:: form-desempenho.png
+
+**Passo 4:** Visualizar boletins de desempenho de participantes do PGD no setor e estatísticas gerais do setor.
 
 .. image:: estatisticas-setor-1.png
 .. image:: estatisticas-setor-2.png
