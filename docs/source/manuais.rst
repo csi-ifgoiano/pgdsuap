@@ -71,6 +71,10 @@ Proposição de plano de trabalho
 
 .. image:: form-plano.png
 
+.. Note::
+
+   O sistema só aceitará datas dentro da vigência do edital que o participante foi aprovado.
+
 O usuário será redirecionado para a tela com as informações do plano de trabalho.
 
 .. image:: tela-plano.png
@@ -83,6 +87,10 @@ O usuário será redirecionado para a tela com as informações do plano de trab
 
 .. image:: form-add-atividade.png
 
+.. Note::
+
+   As faixas de complexidade são pré-cadastradas pelas equipes responsáveis pelo PGD. A carga horária da faixa de complexidade (em programa de gestão) será considerada para fins de planejamento do plano de trabalho.
+
 Após adicionadas todas as atividades o plano deve ficar similar ao seguinte:
 
 .. image:: tela-plano-preenchido.png
@@ -91,18 +99,18 @@ Após adicionadas todas as atividades o plano deve ficar similar ao seguinte:
 
 .. image:: acoes-add-atividade.png
 
-Execução de plano de trabalho
+Execução do plano de trabalho
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 **Passo 1:** Acessar o SUAP.
 
 .. image:: suap.png
 
-**Passo 2:** Acessar o menu "GESTÃO DE PESSOAS - Programa de Gestão - Planos de Trabalho".
+**Passo 2:** Acessar o menu "GESTÃO DE PESSOAS - Programa de Gestão - Planos de Trabalho", na aba "Autorizados".
 
 .. image:: tela-planos-autorizados.png
 
-**Passo 3:** Selecionar plano através da lupa.
+**Passo 3:** Selecionar plano a ser executado através da lupa.
 
 .. image:: plano-registrar-entrega.png
 
@@ -111,6 +119,13 @@ Execução de plano de trabalho
 .. image:: form-reg-entrega-1.png
 .. image:: form-reg-entrega-2.png
 .. image:: form-reg-entrega-3.png
+
+.. Note::
+
+   * No campo "Entrega Realizada", deve-se detalhar ao máximo a entrega para avaliação da chefia. Coloque links do que foi produzido para acesso da chefia imediata na hora da avaliação;
+   * No campo "Comprovante" é possível anexar um documento em formato .pdf para ajudar a chefia imediata na avaliação da entrega. Não recomenda-se colocar o produto entregue neste campo, para evitar duplicações desnecessárias de arquivos;
+   * No campo "Data de Início de Execução da Atividade" e "Data de Fim de Execução da Atividade" deve-se colocar as datas, dentro da vigência do plano, que a atividade foi realizada.
+   * No campo "Dificuldades", opcionalmente, pode-se relatar as dificuldade encontradas para execução.
 
 **Passo 5:** Após preenchimento do formulário, selecionar "Salvar". A operação deve ser realizada para todas as atividades.
 
@@ -128,7 +143,7 @@ Um exemplo de cronograma está na tabela a seguir, as atividades em azul estão 
 
 .. image:: cronograma-plano.png
 
-O servidor pode visualizar seu quadro geral de participação no PGD através do menu "GESTÃO DE PESSOAS - Programa de Gestão - Relatórios - Meu Boletim.
+O servidor pode visualizar seu quadro geral de participação no PGD através do menu "GESTÃO DE PESSOAS - Programa de Gestão - Relatórios - Meu Boletim".
 
 .. image:: meu-boletim-1.png
 
@@ -140,7 +155,7 @@ Caso haja necessidade de correção, o servidor pode reabrir o plano de trabalho
 
 .. image:: suap.png
 
-**Passo 2:** Acessar o menu "GESTÃO DE PESSOAS - Programa de Gestão - Planos de Trabalho" na aba "Finalizados".
+**Passo 2:** Acessar o menu "GESTÃO DE PESSOAS - Programa de Gestão - Planos de Trabalho", na aba "Finalizados".
 
 .. image:: planos-finalizados.png
 
@@ -159,8 +174,7 @@ No módulo do PGD do SUAP, a chefia pode:
 
 * Autorizar atividades e planos propostos pelo servidor vinculado;
 * Avaliar atividades e planos entregues pelo servidor vinculado;
-* Incluir atividades nos planos de trabalho do servidor vinculado;
-* Visualizar relatórios de boletins de desempenho do setor vinculado.
+* Visualizar relatórios e estatísticas do setor vinculado.
 
 .. Note::
 
@@ -174,7 +188,7 @@ Autorização de atividades e planos
 
 .. image:: suap.png
 
-**Passo 2:** Acessar o menu "GESTÃO DE PESSOAS - Programa de Gestão - Planos de Trabalho" na aba "Encaminhados".
+**Passo 2:** Acessar o menu "GESTÃO DE PESSOAS - Programa de Gestão - Planos de Trabalho", na aba "Encaminhados".
 
 .. image:: planos-encaminhados.png
 
@@ -203,7 +217,7 @@ Avaliação de atividades entregues
 
 .. image:: suap.png
 
-**Passo 2:** Acessar o menu "GESTÃO DE PESSOAS - Programa de Gestão - Planos de Trabalho" na aba "Entregues".
+**Passo 2:** Acessar o menu "GESTÃO DE PESSOAS - Programa de Gestão - Planos de Trabalho", na aba "Entregues".
 
 .. image:: planos-entregues.png
 
@@ -211,11 +225,21 @@ Avaliação de atividades entregues
 
 .. image:: tela-avaliar-plano.png
 
+.. Note::
+
+   Antes de autorizar todas as atividades, o chefe pode adicionar novas atividades através de "Açẽes - Adicionar Atividade".
+
 **Passo 4:** Selecionar atividade que deseja avaliar e selecionar "Avaliar Entrega". Será aberto o formulário para avaliação da atividade.
 
 .. image:: form-avaliar-entrega-1.png
 .. image:: form-avaliar-entrega-2.png
 .. image:: form-avaliar-entrega-3.png
+
+.. Note::
+
+   * Os "Critérios de Avaliação" e os dados da "Atividade" entregue contém as informações que a chefia tem para avaliar a entrega;
+   * O campo nota deve ser preenchido com o valor inteiro de 0 a 10;
+   * O campo "carga horária homologada" deve ser preenchido com a carga horária que será considerada para contabilização da carga horária final do plano.
 
 **Passo 5:** Todas as atividades devem ser avaliadas. A própria chefia também possui permissão de fechar o plano do servidor através de "Ações - Fechar plano"
 
@@ -240,6 +264,3 @@ Estatísticas do setor
 
 .. image:: estatisticas-setor-1.png
 .. image:: estatisticas-setor-2.png
-
-
-
