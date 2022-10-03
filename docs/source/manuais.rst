@@ -1,6 +1,55 @@
 Manuais
 =======
 
+Configurando Programa de Gestão
+-------------------------------
+
+O módulo do programa de gestão do SUAP possui os seguintes perfis:
+* **Auditoria**: Acesso amplo de visualização a todas as informações do PGD, para fins de auditoria.
+* **Avaliador de Prog. de Gestão**: Responsável pelo gerenciamento das inscrições do PGD a nível de unidade, ou seja, cada avaliador poderá deferir, indeferir, desligar inscrições, assim como alterar editais, da sua unidade (campus).
+* **Avaliador de Prog. de Gestão Sistêmico**: Responsável pelo gerenciamento das inscrições do PGD de todas as unidades, ou seja, cada avaliador poderá deferir, indeferir, desligar inscrições, assim como alterar editais, de todas as unidades (campus).
+* **Coordenador de Prog. de Gestão**: Responsável pelo cadastro da tabela de atividades e de complexidade.
+* **Desenvolvimento Institucional**: Visualização de relatórios e indicadores do programa de gestão de todas as unidades.
+* **Gestão de Pessoas**: Visualização de relatórios e indicadores do programa de gestão de todas as unidades. 
+* **Gestão de Pessoas Campus**: Visualização de relatórios e indicadores do programa de gestão da unidade do usuário habilitado. 
+* **Servidor**: Pode participar de editais do programa de gestão, propor planos de trabalho e entregar relatórios.
+* **Chefia**: Pode autorizar planos de trabalho e avaliar entregas do relatórios.
+
+
+Cadastro de Tabela de Complexidade
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+**Passo 1**: Acessar o SUAP.
+
+**Passo 2**: Acessar o menu "GESTÃO DE PESSOAS - Cadastros - Complexidade.
+
+**Passo 3**: Selecionar "Adicionar Faixa de Complexidade".
+
+**Passo 4**: Preencher formulário e "Salvar".
+
+
+Cadastro de Tabela de Atividades
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+**Passo 1**: Acessar o SUAP.
+
+**Passo 2**: Acessar o menu "GESTÃO DE PESSOAS - Cadastros - Atividades.
+
+**Passo 3**: Selecionar "Adicionar Atividade".
+
+**Passo 4**: Preencher formulário e "Salvar".
+
+Cadastro de Editais
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+**Passo 1**: Acessar o SUAP.
+
+**Passo 2**: Acessar o menu "GESTÃO DE PESSOAS - Cadastros - Editais.
+
+**Passo 3**: Selecionar "Adicionar Edital".
+
+**Passo 4**: Preencher formulário e "Salvar".
+
 Servidores
 ------------
 
