@@ -122,9 +122,35 @@ Editais de fluxo contínuo do PGD permite que os responsáveis pelo programa, ca
 
 .. image:: editais.png
 
-**Passo 4:** Preencher participantes por regime e "Salvar".
+**Passo 4:** Preencher participantes por regime e "Enviar".
 
 .. image:: form-inscrever-participantes-pgd.png
+
+.. Note::
+
+   Para estes casos, não será necessário que o participante se inscreva no programa, ele poderá propor planos diretamente.
+
+Avaliação de inscrições
+^^^^^^^^^^^^^^^^^^^^^^^
+
+Caso o programa de gestão tenha etapa de inscrição, os reponsáveis pelo PGD devem avaliar as inscrições
+
+**Passo 1:** Acessar o SUAP.
+
+.. image:: suap.png
+
+**Passo 2:** Acessar o menu "GESTÃO DE PESSOAS - Programa de Gestão - Inscrições", na aba "Pendentes".
+
+.. image:: inscricao-pendente-pgd.png
+
+**Passo 3:** Selecionar a opção "Avaliar".
+
+.. image:: form-avaliar-inscricao.png
+
+.. Note::
+
+   O responsável pelo programa de gestão pode deferir ou indeferir a inscrição realizada.
+
 
 Servidores
 ------------
@@ -238,6 +264,11 @@ Execução do plano de trabalho
 **Passo 3:** Selecionar plano a ser executado através da lupa.
 
 .. image:: plano-registrar-entrega.png
+
+.. Note::
+
+   * O servidor pode adicionar novas atividades no plano autorizado e reencaminhar para a chefia autorizar através de "Ações - Adicionar Atividade" e "Ações - Encaminhar", respectivamente;
+   * O servidor pode cancelar atividades, através do sinal de menos (-) ao lado da lupa.
 
 **Passo 4:** Selecionar a atividade que deve ser registrada a entrega e selecionar "Registrar Entrega". O sistema irá abrir o formulário de registro da entrega. 
 
