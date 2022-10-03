@@ -28,4 +28,3 @@ Conteúdos
 
    manuais
    instalacao
-   api
