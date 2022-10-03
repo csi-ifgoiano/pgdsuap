@@ -108,7 +108,7 @@ Cadastro de Editais
 Inscrição direta de participantes
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Editais de fluxo contínuo do PGD permite que os responsáveis pelo programa, cadastrem participantes diretamente.
+Editais de fluxo contínuo do PGD permitem que os responsáveis pelo programa, cadastrem participantes diretamente.
 
 **Passo 1:** Acessar o SUAP.
 
@@ -162,12 +162,12 @@ No módulo do PGD do SUAP, o servidor pode:
 * Executar planos de trabalho propostos;
 * Finalizar planos de trabalho avaliados pela chefia imediata;
 * Reabrir planos finalizados para correção;
-* Acompanhar quadro geral de planos e atividades no PGD.
+* Acompanhar  quadro geral de planos e atividades no PGD.
 
 
 .. Note::
 
-   Para executar as operações deste manual, o servidor deve possuir usuário ativo no SUAP.
+   Para executar as operações deste manual, o servidor deve possuir usuário ativo no SUAP e inscrição deferida no PGD.
 
 
 
@@ -240,7 +240,8 @@ O usuário será redirecionado para a tela com as informações do plano de trab
 
 .. Note::
 
-   As faixas de complexidade são pré-cadastradas pelas equipes responsáveis pelo PGD. A carga horária da faixa de complexidade (em programa de gestão) será considerada para fins de planejamento do plano de trabalho.
+   * As faixas de complexidade são pré-cadastradas pelas equipes responsáveis pelo PGD. 
+   * A carga horária da faixa de complexidade (em programa de gestão) será considerada para fins de planejamento do plano de trabalho.
 
 Após adicionadas todas as atividades o plano deve ficar similar ao seguinte:
 
@@ -279,9 +280,9 @@ Execução do plano de trabalho
 .. Note::
 
    * No campo "Entrega Realizada", deve-se detalhar ao máximo a entrega para avaliação da chefia. Coloque links do que foi produzido para acesso da chefia imediata na hora da avaliação;
-   * No campo "Comprovante" é possível anexar um documento em formato .pdf para ajudar a chefia imediata na avaliação da entrega. Não recomenda-se colocar o produto entregue neste campo, para evitar duplicações desnecessárias de arquivos;
+   * No campo "Comprovante" é possível anexar um documento em formato .pdf para ajudar a chefia imediata na avaliação da entrega. Não recomenda-se colocar o produto entregue neste campo para evitar duplicações desnecessárias de arquivos;
    * No campo "Data de Início de Execução da Atividade" e "Data de Fim de Execução da Atividade" deve-se colocar as datas, dentro da vigência do plano, que a atividade foi realizada.
-   * No campo "Dificuldades", opcionalmente, pode-se relatar as dificuldade encontradas para execução.
+   * No campo "Dificuldades", opcionalmente, pode-se relatar as dificuldades encontradas para execução.
 
 **Passo 5:** Após preenchimento do formulário, selecionar "Salvar". A operação deve ser realizada para todas as atividades.
 
@@ -420,3 +421,8 @@ Estatísticas do setor
 
 .. image:: estatisticas-setor-1.png
 .. image:: estatisticas-setor-2.png
+
+A chefia também pode acompanhar as situações dos planos através da tela inicial do SUAP:
+
+.. image:: quadro-pgd.png
+
