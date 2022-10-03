@@ -426,3 +426,39 @@ A chefia também pode acompanhar as situações dos planos através da tela inic
 
 .. image:: quadro-pgd.png
 
+
+Relatórios Públicos
+^^^^^^^^^^^^^^^^^^^
+
+**Painel Público de Indicadores**
+
+**Passo 1:** Acessar o SUAP.
+
+.. image:: suap.png
+
+**Passo 2:** Na própria tela de login, acessar menu do Programa de Gestão e Desempenho.
+
+.. image:: menu-painel-publico.png
+
+**Passo 3:** Selecionar "Painel"
+
+.. image:: painel-1.png
+.. image:: painel-2.png
+.. image:: painel-3.png
+.. image:: painel-4.png
+
+**Planos de Trabalho**
+
+**Passo 1:** Acessar o SUAP.
+
+.. image:: suap.png
+
+**Passo 2:** Na própria tela de login, acessar menu do Programa de Gestão e Desempenho.
+
+.. image:: menu-painel-publico.png
+
+**Passo 3:** Selecionar "Planos de Trabalho"
+
+.. image:: consulta-planos-trabalho.png
+
+
