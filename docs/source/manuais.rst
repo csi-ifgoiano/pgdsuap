@@ -5,6 +5,7 @@ Configurando Programa de Gestão
 -------------------------------
 
 O módulo do programa de gestão do SUAP possui os seguintes perfis:
+
 * **Auditoria**: Acesso amplo de visualização a todas as informações do PGD, para fins de auditoria.
 * **Avaliador de Prog. de Gestão**: Responsável pelo gerenciamento das inscrições do PGD a nível de unidade, ou seja, cada avaliador poderá deferir, indeferir, desligar inscrições, assim como alterar editais, da sua unidade (campus).
 * **Avaliador de Prog. de Gestão Sistêmico**: Responsável pelo gerenciamento das inscrições do PGD de todas as unidades, ou seja, cada avaliador poderá deferir, indeferir, desligar inscrições, assim como alterar editais, de todas as unidades (campus).
