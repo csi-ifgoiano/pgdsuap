@@ -24,7 +24,7 @@ Cadastro de Tabela de Complexidade
 
 .. image:: suap.png
 
-**Passo 2**: Acessar o menu "GESTÃO DE PESSOAS - Cadastros - Complexidade.
+**Passo 2**: Acessar o menu "GESTÃO DE PESSOAS - Cadastros - Complexidade".
 
 .. image:: menu-complexidade.png
 
@@ -44,7 +44,7 @@ Cadastro de Tabela de Atividades
 
 .. image:: suap.png
 
-**Passo 2**: Acessar o menu "GESTÃO DE PESSOAS - Cadastros - Atividades.
+**Passo 2**: Acessar o menu "GESTÃO DE PESSOAS - Cadastros - Atividades".
 
 .. image:: menu-tabela-atividade.png
 
@@ -63,7 +63,7 @@ Cadastro de Editais
 
 .. image:: suap.png
 
-**Passo 2**: Acessar o menu "GESTÃO DE PESSOAS - Cadastros - Editais.
+**Passo 2**: Acessar o menu "GESTÃO DE PESSOAS - Cadastros - Editais".
 
 .. image:: menu-edital.png
 
@@ -73,7 +73,8 @@ Cadastro de Editais
 
 **Passo 4**: Preencher formulário e "Salvar".
 
-.. image:: form-edital.png
+.. image:: form-edital-1.png
+.. image:: form-edital-2.png
 
 Servidores
 ------------
