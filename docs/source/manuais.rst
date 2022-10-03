@@ -187,7 +187,7 @@ Avaliação de atividades entregues
 
 **Passo 3:** Selecionar plano que deseja avaliar através da lupa.
 
-.. image:: tela-avaliar-entrega.png
+.. image:: tela-avaliar-plano.png
 
 **Passo 4:** Selecionar atividade que deseja avaliar e selecionar "Avaliar Entrega". Será aberto o formulário para avaliação da atividade.
 
