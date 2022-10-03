@@ -13,6 +13,7 @@ No módulo do PGD do SUAP, o servidor pode:
 * Reabrir planos finalizados para correção;
 * Acompanhar quadro geral de planos e atividades no PGD.
 
+
 .. Note::
 
    Para executar as operações deste manual, o servidor deve possuir usuário ativo no SUAP.
