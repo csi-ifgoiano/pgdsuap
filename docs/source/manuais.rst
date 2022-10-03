@@ -229,7 +229,7 @@ Estatísticas do setor
 
 **Passo 3:** Selecionar o setor para ver desempenho e escolher para selecionar ou não sub-setores na árvore.
 
-.. image:: form-desempenho.png
+.. image:: form-desempenho-setor.png
 
 **Passo 4:** Visualizar boletins de desempenho de participantes do PGD no setor e estatísticas gerais do setor.
 
