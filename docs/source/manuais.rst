@@ -1,7 +1,7 @@
 Manuais
 =======
 
-Configurando Programa de Gestão
+Configurações
 -------------------------------
 
 O módulo do programa de gestão do SUAP possui os seguintes perfis:
@@ -63,6 +63,14 @@ Cadastro de Tabela de Atividades
 
 .. image:: form-atividade.png
 
+.. Note::
+
+   * O campo "Título" deve trazer o título da atividade;
+   * O campo "Descrição" deve trazer a descrição da atividade;
+   * O campo "Entregas Esperadas" deve trazer o rol de entregas que espera-se após a execução da atividade;
+   * O campo "Setor da Atividade" deve conter os setores caso a atividade esteja disponível apenas para setores específicos;
+   * O campo "Ativo" deve estar marcado para todas as atividades vigentes na tabela de atividades;
+
 Cadastro de Editais
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -82,6 +90,41 @@ Cadastro de Editais
 
 .. image:: form-edital-1.png
 .. image:: form-edital-2.png
+
+.. Note::
+
+   * O campo "Campus" deve trazer o campus (unidade) de vigência do edital;
+   * O campo "Descrição" deve trazer a descrição do edital;
+   * O campo "Permite anexo?" caso marcado, irá exigir que os candidatos enviem um anexo no formato .pdf no ato de inscrição;
+   * O campo "Início das Inscrições" deve ser preenchido com a data de início do período de inscrição, caso o edital tenha essa etapa. Editais de fluxo contínuo não exigem esse preenchimento;
+   * O campo "Fim das Inscrições" deve ser preenchido com a data de fim do período de inscrição, caso o edital tenha essa etapa. Editais de fluxo contínuo não exigem esse preenchimento;
+   * O campo "Data de Início" deve ser preenchido com a data de início da vigência do programa de gestão. Os planos de trabalho deverão ser propostos no intervalo definido no edital;
+   * O campo "Data de Encerramento" deve ser preenchido com a data de encerramento da vigência do programa de gestão. Os planos de trabalho deverão ser propostos no intervalo definido no edital;
+   * O campo "Edital de Fluxo Contínuo" deve ser marcado para casos em que a unidade inscreva participantes no programa continuamente;
+   * O campo "Aceitando Inscrições" deve ser marcado sempre que seja necessário habilitar o programa de gestão para receber inscrições;
+   * Campo "Termo de Compromisso" deve conter o texto do termo de compromisso, que receberá aceite dos candidatos ao programa de gestão;
+   * O campo "Arquivo do Edital", deve conter o arquivo em formato .pdf do edital, caso este exista.
+   
+Inscrição direta de participantes
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Editais de fluxo contínuo do PGD permite que os responsáveis pelo programa, cadastrem participantes diretamente.
+
+**Passo 1:** Acessar o SUAP.
+
+.. image:: suap.png
+
+**Passo 2:** Acessar o menu de editais.
+
+.. image:: menu-edital.png
+
+**Passo 3:** Selecionar a opção "Inscrever Participantes" do edital cadastrado.
+
+.. image:: editais.png
+
+**Passo 4:** Preencher participantes por regime e "Salvar".
+
+.. image:: form-inscrever-participantes-pgd.png
 
 Servidores
 ------------
