@@ -122,6 +122,12 @@ Um exemplo de cronograma está na tabela a seguir, as atividades em azul estão 
 
 .. image:: cronograma-plano.png
 
+O servidor pode visualizar seu quadro geral de participação no PGD através do menu "GESTÃO DE PESSOAS - Programa de Gestão - Relatórios - Meu Boletim.
+
+.. image:: meu-boletim-1.png
+
+.. image:: meu-boletim-2.png
+
 
 Chefias
 ----------------
