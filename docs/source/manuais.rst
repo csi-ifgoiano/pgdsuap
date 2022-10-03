@@ -129,6 +129,23 @@ O servidor pode visualizar seu quadro geral de participação no PGD através do
 
 .. image:: meu-boletim-2.png
 
+Caso haja necessidade de correção, o servidor pode reabrir o plano de trabalho. Para isso:
+
+**Passo 1:** Acessar o SUAP.
+
+.. image:: suap.png
+
+**Passo 2:** Acessar o menu "GESTÃO DE PESSOAS - Programa de Gestão - Planos de Trabalho" na aba "Finalizados".
+
+.. image:: planos-finalizados.png
+
+**Passo 3:** Selecionar plano que deseja reabrir através da lupa.
+
+.. image:: tela-plano-finalizado.png
+
+**Passo 4:** Selecionar "Ações - Reabrir plano".
+
+.. image:: acoes-reabrir-plano.png
 
 Chefias
 ----------------
