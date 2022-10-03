@@ -35,13 +35,17 @@ Inscrição em edital
 
 .. image:: info-edital.png
 
+.. Note::
+
+   As informações do edital são cadastradas pela equipe responsável pelo PGD na instituição.
+
 **Passo 4:** Selecionar modalidade que deseja participar no PGD (Presencial, Teletrabalho Parcial, Teletrabalho Integral) e dar aceite em termo de compromisso.
 
 .. image:: inscricao.png
 
-**Passo 5:** Enviar inscrição e aguardar a mensagem "Inscrição realizada com sucesso!".
+**Passo 5:** Enviar inscrição e aguardar a mensagem **"Inscrição realizada com sucesso!"**.
 
-O acompanhamento da inscrição pode ser realizado através do menu GESTÃO DE PESSOAS - Programa de Gestão - Inscrições.
+O acompanhamento da inscrição pode ser realizado através do menu "GESTÃO DE PESSOAS - Programa de Gestão - Inscrições".
 
 .. image:: menu-inscricoes.png
 
