@@ -12,7 +12,7 @@ para o SUAP.
 
 A documentação inclui:
 
-1. Documentação para equipes responsáveis pleo PGD
+1. Documentação para equipes responsáveis pelo PGD
 2. Documentação para servidores participantes do PGD
 3. Documentação para chefias dos servidores participantes do PGD
 4. Documentação técnica para habilitação do módulo SUAP
