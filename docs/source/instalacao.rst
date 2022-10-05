@@ -17,7 +17,7 @@ Copiar as apps: programa_gestao, pgd_api, pgd_integra_ifgoiano
 
 **App programa_gestao**: implementa toda a lógica de negócio do PGD.
 
-**App pgd_api**: implementa a integração com a API do PGD <http://hom.api.programadegestao.economia.gov.br/docs>
+**App pgd_api**: implementa a integração com a API do PGD `<http://hom.api.programadegestao.economia.gov.br/docs>`
 
 **App pgd_integra_ifgoiano**: implementa a integração entre os dados da app programa_gestao e o envio através app pgd_api. Permite e visualização do histórico de envio dos planos cadastrados na app programa_gestao.
    1. arquivo `integra/configuracao.py`: implementa a lista das situações dos planos e atividades aptas para envio pela app pgd_api.
