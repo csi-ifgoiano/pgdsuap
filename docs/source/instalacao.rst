@@ -11,8 +11,8 @@ Clonar repositório do programa de gestão <https://gitlab.ifrn.edu.br/>
    git clone git@gitlab.ifrn.edu.br:cosinf/suap-ifgoiano.git
    
 .. note::
+   Para realizar a clonagem, deve-se adicionar a chave SSH ao seu perfil no Gitlab.
 
-Para realizar a clonagem, deve-se adicionar a chave SSH ao seu perfil no Gitlab.
 
 Copiar as apps: programa_gestao, pgd_api, pgd_integra_ifgoiano
 
