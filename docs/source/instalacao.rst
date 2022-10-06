@@ -49,9 +49,25 @@ Sincronizar SUAP
 
 API
 ---------
-Acesse a URL </comum/configuracao> para configurar a API.
-Localize a seção "Aplicação PGd_integra_ifgoiano" e informe os dados
+Acesse a URL </comum/configuracao> no SUAP para configurar a API.
+Localize a seção "Aplicação pgd_integra_ifgoiano" e informe os dados:
    1. URL da API
    2. Usuário API PGD Ministério da Economia
    3. Senha API PGD Ministério da Economia
+
+Para testar, pode rodar individualmente o comando "pgd_integra_ifgoiano_enviar_dados":
+
+.. code-block:: console
+
+   python manage.py pgd_integra_ifgoiano_enviar_dados
+   
+.. note::
+   O comando deverá ser adicionado ao comando sync_suap da instituição para rodar periodicamente.
+
+URLs
+^^^^^
+
+`admin/pgd_integra_ifgoiano/registroacaoenvioplanodetrabalho/`: visualizar registro de envios dos planos
+
+`admin/pgd_integra_ifgoiano/planodetrabalho`: visualizar os planos de trabalho aptos a serem enviados; visualizar situação de envio de cada plano; enviar planos individualmente.
 
