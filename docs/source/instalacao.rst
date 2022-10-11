@@ -52,11 +52,11 @@ API
 ---------
 
 Solicitar as credenciais via e-mail para pgd@economia.gov.br, com as seguintes informações:
-* Nome responsável pela integração:
-* E-mail
-* Matrícula SIAPE
-* Código SIORG do órgão
-* Sistema utilizado
+   * Nome responsável pela integração:
+   * E-mail
+   * Matrícula SIAPE
+   * Código SIORG do órgão
+   * Sistema utilizado
 
 Acesse a URL </comum/configuracao> no SUAP para configurar a API.
 Localize a seção "Aplicação pgd_integra_ifgoiano" e informe os dados:
