@@ -51,8 +51,8 @@ Sincronizar SUAP
 API
 ---------
 
-
 Solicitar as credenciais via e-mail para pgd@economia.gov.br, com as seguintes informações:
+
    * Nome responsável pela integração:
    * E-mail
    * Matrícula SIAPE
