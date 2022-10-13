@@ -22,7 +22,8 @@ Contatos
 ---------
 
 Diretoria de Tecnologia da Informação do IF Goiano <dti@ifgoiano.edu.br>
-Coordenação de Sistemas de Informação do IF Goiano (csi@ifgoiano.edu.br>
+
+Coordenação de Sistemas de Informação do IF Goiano <csi@ifgoiano.edu.br>
 
 
 Conteúdos
