@@ -84,4 +84,21 @@ URLs
    * visualizar os planos de trabalho aptos a serem enviados; 
    * visualizar situação de envio de cada plano;
    * enviar planos individualmente.
+   
+   
+Comandos
+---------
+
+Atualização faixa de complexidade
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Este comando é para instituições que adotaram o módulo com a modelagem anterior, onde o campo da faixa de complexidade estava na tabela de atividades. Para realizar a migração dos planos já enviados deve-se seguir os seguintes passos:
+
+* Descomentar os campos  `tempo_execucao_presencial`, `tempo_execucao_remota`, `faixa_complexidade`, `parametros_complexidade`  e `ganho_produtividade`  e método `save` do modelo Atividade
+* A fixture `programa_gestao/fixture/complexidade.json` foi criada de acordo com as faixas de complexidade adotadas no IF Goiano, deve ser verificado se o mesmo cadastro será utilizado.
+* Aplicar individualmente a `migração manage.py migrate` programa_gestao `0006_auto_20220323_1106`. Ela cria o novo modelo Complexidade e popula com a fixture `complexidade.json`.
+* O comando atualizar_faixa_complexidade faz um de-para na faixa de complexidade e deve ser analisado se atende a realidade da instituição.
+* Aplicar individualmente a migração manage.py migrate programa_gestao `0007_auto_20220323_1542`. Ela executa o comando `atualizar_faixa_complexidade` e remove os campos do modelo Atividade.
+* Apagar os campos e o método save do modelo Atividade.
+
 
