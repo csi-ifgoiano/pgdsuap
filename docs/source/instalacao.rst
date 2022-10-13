@@ -111,7 +111,7 @@ Este comando finaliza os planos e homologa a carga-horária para planos avaliado
    python manage.py fechar_plano_automaticamente
 
 
-Migrar modalide do edital para inscrição
+Migrar modalidade do edital para inscrição
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Este comando é para instituições que adotaram o módulo com a modelagem antiga, onde o campo de modalidade do programa de gestão estava na tabela de editais. Instituições que vão começar a utilizar o módulo após 07/10/2022 não precisam migrar dados e podem ignorar o comando. Para realizar a migração das inscrições deve-se executar o comando:
 
