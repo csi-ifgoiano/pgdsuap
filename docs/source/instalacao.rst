@@ -92,7 +92,7 @@ Comandos
 Atualização faixa de complexidade
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Este comando é para instituições que adotaram o módulo com a modelagem anterior, onde o campo da faixa de complexidade estava na tabela de atividades. Para realizar a migração dos planos já enviados deve-se seguir os seguintes passos:
+Este comando é para instituições que adotaram o módulo com a modelagem antiga, onde o campo da faixa de complexidade estava na tabela de atividades. Instituições que vão começar a utilizar o módulo após 07/10/2022 não precisam migrar dados e pode ignorar o comando. Para realizar a migração dos planos já enviados deve-se seguir os seguintes passos:
 
 * Descomentar os campos  `tempo_execucao_presencial`, `tempo_execucao_remota`, `faixa_complexidade`, `parametros_complexidade`  e `ganho_produtividade`  e método `save` do modelo Atividade
 * A fixture `programa_gestao/fixture/complexidade.json` foi criada de acordo com as faixas de complexidade adotadas no IF Goiano, deve ser verificado se o mesmo cadastro será utilizado.
@@ -100,5 +100,24 @@ Este comando é para instituições que adotaram o módulo com a modelagem anter
 * O comando atualizar_faixa_complexidade faz um de-para na faixa de complexidade e deve ser analisado se atende a realidade da instituição.
 * Aplicar individualmente a migração manage.py migrate programa_gestao `0007_auto_20220323_1542`. Ela executa o comando `atualizar_faixa_complexidade` e remove os campos do modelo Atividade.
 * Apagar os campos e o método save do modelo Atividade.
+
+Fechar planos automaticamente
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Este comando finaliza os planos e homologa a carga-horária para planos avaliados a mais de sete dias. Pode ser agendado no cron periodicamente. Para executar o comando:
+
+.. code-block:: console
+
+   python manage.py fechar_plano_automaticamente
+
+
+Migrar modalide do edital para inscrição
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Este comando é para instituições que adotaram o módulo com a modelagem antiga, onde o campo de modalidade do programa de gestão estava na tabela de editais. Instituições que vão começar a utilizar o módulo após 07/10/2022 não precisam migrar dados e podem ignorar o comando. Para realizar a migração das inscrições deve-se executar o comando:
+
+.. code-block:: console
+
+   python manage.py migrar_modalidade_edital_para_inscricao
+
 
 
