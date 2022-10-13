@@ -18,7 +18,11 @@ A documentação inclui:
 4. Documentação técnica para habilitação do módulo SUAP
 5. Documentação técnica para integração do módulo SUAP com a Interface de Programação de Aplicações (API) do Governo Federal
 
+Contatos
+---------
 
+Diretoria de Tecnologia da Informação do IF Goiano <dti@ifgoiano.edu.br>
+Coordenação de Sistemas de Informação do IF Goiano (csi@ifgoiano.edu.br>
 
 
 Conteúdos
