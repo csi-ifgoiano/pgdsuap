@@ -98,13 +98,14 @@ Este comando é para instituições que adotaram o módulo com a modelagem antig
 * A fixture `programa_gestao/fixture/complexidade.json` foi criada de acordo com as faixas de complexidade adotadas no IF Goiano, deve ser verificado se o mesmo cadastro será utilizado.
 * Aplicar individualmente a `migração manage.py migrate` programa_gestao `0006_auto_20220323_1106`. Ela cria o novo modelo Complexidade e popula com a fixture `complexidade.json`.
 * O comando atualizar_faixa_complexidade faz um de-para na faixa de complexidade e deve ser analisado se atende a realidade da instituição.
+* Acessar o arquivo `programa_gestao/migrations/0007_auto_20220323_1542` e descomentar a linha 16. Essa linha roda o comando para atualizar a faixa de complexidade quando aplicar a migração. 
 * Aplicar individualmente a migração manage.py migrate programa_gestao `0007_auto_20220323_1542`. Ela executa o comando `atualizar_faixa_complexidade` e remove os campos do modelo Atividade.
 * Apagar os campos e o método save do modelo Atividade.
 
 Fechar planos automaticamente
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Este comando finaliza os planos e homologa a carga-horária para planos avaliados a mais de sete dias. Pode ser agendado no cron periodicamente. Para executar o comando:
+Este comando finaliza os planos e homologa a carga-horária para planos avaliados a mais de sete dias. Pode ser agendado no cron periodicamente ou adicionado no sync_suap da instituição. Para executar o comando:
 
 .. code-block:: console
 
@@ -118,6 +119,35 @@ Este comando é para instituições que adotaram o módulo com a modelagem antig
 .. code-block:: console
 
    python manage.py migrar_modalidade_edital_para_inscricao
+
+
+Notificar autorização atrasada
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Este comando notifica todas as chefias **imediatas** sobre planos encaminhados e não autorizados após 2 dias. Pode ser agendado no cron periodicamente ou adicionado no sync_suap da instituição. Para executar o comando:
+
+.. code-block:: console
+
+   python manage.py notificar_autorizacao_atrasada
+   
+
+Notificar avaliação atrasada
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Este comando notifica todas as chefias **imediatas** sobre planos entregues e não avaliados após 40 dias. Pode ser agendado no cron periodicamente ou adicionado no sync_suap da instituição. Para executar o comando:
+
+.. code-block:: console
+
+   python manage.py notificar_avaliacao_atrasada
+
+Notificar entrega atrasada
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Este comando notifica todos os servidores participantes do programa de gestão sobre planos autorizados e não entregues após 3 dias da data de finalização do plano. Pode ser agendado no cron periodicamente ou adicionado no sync_suap da instituição. Para executar o comando:
+
+.. code-block:: console
+
+   python manage.py notificar_avaliacao_atrasada
 
 
 
