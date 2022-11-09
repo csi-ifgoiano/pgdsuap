@@ -148,6 +148,16 @@ Este comando notifica todos os servidores participantes do programa de gestão s
 .. code-block:: console
 
    python manage.py notificar_avaliacao_atrasada
+   
+   
+Desativar servidores com máximo de faltas
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Este comando desliga do programa da gestão as inscrições de edital vigente que atingiram o número máximo de faltas. Pode ser agendado no cron periodicamente ou adicionado no sync_suap da instituição. Para executar o comando:
+
+.. code-block:: console
+
+   python manage.py desativar_servidores_com_maximo_faltas
 
 
 
