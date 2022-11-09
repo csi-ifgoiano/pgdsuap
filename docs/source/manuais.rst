@@ -125,7 +125,7 @@ Cadastro de Editais
    * O campo "Arquivo do Edital", deve conter o arquivo em formato .pdf do edital, caso este exista;
    * O campo "Termo de Compromisso" deve conter o texto do termo de compromisso, que receberá aceite dos candidatos ao programa de gestão;
    * O campo "Coordenadores do Edital" indica quais usuários receberão permissão para gerir o edital e avaliar inscrições;
-   * O campo "Quantidade Máxima de Faltas" deve conter o valor máximo de faltas que um servidor pode obter no PGD para não ser desligado;   
+   * O campo "Quantidade Máxima de Faltas" deve conter o valor máximo de faltas que um servidor pode obter no PGD para não ser desligado. São consideradas faltas no programa de gestão o envio de plano depois da data de início (encaminhamento com atraso), realização da entrega do plano após prazo (dias corridos) definido em edital para entrega, e atividade não entregue do plano de trabalho (nota menor que a mínima definida no edital);   
    * O campo "Permite anexo?" caso marcado, irá exigir que os candidatos enviem um anexo no formato .pdf no ato de inscrição;
    * O campo "Descrição do Anexo da Inscrição" deve conter a descrição do anexo que será anexado no ato de inscrição e só deve ser preenchido caso o campo "Permite Anexo?" esteja marcado;
    * O campo "Url do Curso Obrigatório para Inscrição" deve conter o link para o curso obrigatório que será exigido certificado no ato de inscrição no programa de gestão;
