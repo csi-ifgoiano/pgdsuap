@@ -43,6 +43,31 @@ Cadastro de Tabela de Complexidade
    * O campo "Faixa de Complexidade" é a descrição da faixa de complexidade;
    * O campo "Parâmetros de Complexidade" são os parâmetros adotados para definição da faixa de complexidade cadastrada.
 
+Cadastro de Periodicidade
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+**Passo 1**: Acessar o SUAP.
+
+.. image:: suap.png
+
+**Passo 2**: Acessar o menu "GESTÃO DE PESSOAS - Cadastros - Periodicidades".
+
+.. image:: menu-periodicidades.png
+
+**Passo 3**: Selecionar "Adicionar Periodicidade dos Planos".
+
+.. image:: periodicidade.png
+
+**Passo 4**: Preencher formulário e "Salvar".
+
+.. image:: form-periodicidade.png
+
+.. Note::
+
+   * O campo "Descrição" deve conter a descrição da periodicidade;
+   * O campo "Quantidade de Dias" deve conter a quantidade de dias da periodicidade;
+   * O campo "Peso das Faltas" deve conter o valor que será multiplicado cada falta do plano de trabalho com aquela periodicidade. Exemplo: se o plano mensal tem peso 4, cada falta que o servidor levar em planos pensais será multiplicada por 4.
+
 
 Cadastro de Tabela de Atividades
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -95,15 +120,21 @@ Cadastro de Editais
 
    * O campo "Campus" deve trazer o campus (unidade) de vigência do edital;
    * O campo "Descrição" deve trazer a descrição do edital;
-   * O campo "Permite anexo?" caso marcado, irá exigir que os candidatos enviem um anexo no formato .pdf no ato de inscrição;
-   * O campo "Início das Inscrições" deve ser preenchido com a data de início do período de inscrição, caso o edital tenha essa etapa. Editais de fluxo contínuo não exigem esse preenchimento;
-   * O campo "Fim das Inscrições" deve ser preenchido com a data de fim do período de inscrição, caso o edital tenha essa etapa. Editais de fluxo contínuo não exigem esse preenchimento;
-   * O campo "Data de Início" deve ser preenchido com a data de início da vigência do programa de gestão. Os planos de trabalho deverão ser propostos no intervalo definido no edital;
-   * O campo "Data de Encerramento" deve ser preenchido com a data de encerramento da vigência do programa de gestão. Os planos de trabalho deverão ser propostos no intervalo definido no edital;
    * O campo "Edital de Fluxo Contínuo" deve ser marcado para casos em que a unidade inscreva participantes no programa continuamente;
    * O campo "Aceitando Inscrições" deve ser marcado sempre que seja necessário habilitar o programa de gestão para receber inscrições;
-   * Campo "Termo de Compromisso" deve conter o texto do termo de compromisso, que receberá aceite dos candidatos ao programa de gestão;
-   * O campo "Arquivo do Edital", deve conter o arquivo em formato .pdf do edital, caso este exista.
+   * O campo "Arquivo do Edital", deve conter o arquivo em formato .pdf do edital, caso este exista;
+   * O campo "Termo de Compromisso" deve conter o texto do termo de compromisso, que receberá aceite dos candidatos ao programa de gestão;
+   * O campo "Coordenadores do Edital" indica quais usuários receberão permissão para gerir o edital e avaliar inscrições;
+   * O campo "Quantidade Máxima de Faltas" deve conter o valor máximo de faltas que um servidor pode obter no PGD para não ser desligado;   
+   * O campo "Permite anexo?" caso marcado, irá exigir que os candidatos enviem um anexo no formato .pdf no ato de inscrição;
+   * O campo "Descrição do Anexo da Inscrição" deve conter a descrição do anexo que será anexado no ato de inscrição e só deve ser preenchido caso o campo "Permite Anexo?" esteja marcado;
+   * O campo "Url do Curso Obrigatório para Inscrição" deve conter o link para o curso obrigatório que será exigido certificado no ato de inscrição no programa de gestão;
+   * O campo "Início das Inscrições" deve ser preenchido com a data de início do período de inscrição, caso o edital tenha essa etapa. Editais de fluxo contínuo não exigem esse preenchimento;
+   * O campo "Fim das Inscrições" deve ser preenchido com a data de fim do período de inscrição, caso o edital tenha essa etapa. Editais de fluxo contínuo não exigem esse preenchimento;
+   * O campo "Data para Resultado Final" deve ser preenchido com a data do resultado final do edital, caso o edital tenha essa etapa. Editais de fluxo contínuo não exigem esse preenchimento;
+   * O campo "Data de Início" deve ser preenchido com a data de início da vigência do programa de gestão. Os planos de trabalho deverão ser propostos no intervalo definido no edital;
+   * O campo "Data de Encerramento" deve ser preenchido com a data de encerramento da vigência do programa de gestão. Os planos de trabalho deverão ser propostos no intervalo definido no edital.      
+   
    
 Inscrição direta de participantes
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -218,13 +249,13 @@ Proposição de plano de trabalho
 
 .. image:: add-plano.png
 
-**Passo 4:** Preencher intervalo do plano (data de início e data de fim).
+**Passo 4:** Preencher data de início do plano e periodicidade (Semanal, Quinzenal...).
 
 .. image:: form-plano.png
 
 .. Note::
 
-   O sistema só aceitará datas dentro da vigência do edital que o participante foi aprovado.
+   O sistema só aceitará datas dentro da vigência do edital que o participante foi aprovado. A data de fim do plano de trabalho será calculada automaticamente com base na periodicidade.
 
 O usuário será redirecionado para a tela com as informações do plano de trabalho.
 
@@ -365,7 +396,9 @@ Autorização de atividades e planos
 
 .. image:: form-autorizar-plano.png
 
-O plano autorizado poderá ser executado pelo servidor. Após executado ele será entregue para avaliação da chefia.
+O plano autorizado poderá ser executado pelo servidor. Após executado ele será entregue para avaliação da chefia. Alternativamente, a chefia pode autorizar todas as atividades e o plano em um único clique, através da opção "Ações - Autorizar Tudo"
+
+.. image:: acoes-autorizar-tudo.png
 
 Avaliação de atividades entregues
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -401,6 +434,10 @@ Avaliação de atividades entregues
 **Passo 5:** Todas as atividades devem ser avaliadas. A própria chefia também possui permissão de fechar o plano do servidor através de "Ações - Fechar plano"
 
 .. image:: acoes-fechar-plano.png
+
+Alternativamente, caso a chefia necessite que o servidor faça alguma correção no plano antes de prosseguir para avaliação, ela deve utilizar a opção "Ações - Devolver Plano"
+
+.. image:: acoes-devolver-plano.png
 
 Estatísticas do setor
 ^^^^^^^^^^^^^^^^^^^^^^
