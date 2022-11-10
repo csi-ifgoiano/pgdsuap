@@ -197,13 +197,13 @@ Desligamento de servidores
 
 .. image:: desligar-servidor.png
 
-**Passo 3:** Desmarcar a opção "Ativa" e apresentar "Justificativa para Desligamento".
+**Passo 3:** Desmarcar a opção "Ativa" e apresentar "Motivo do Desligamento".
 
 .. image:: form-desligar-servidor.png
 
 .. Note::
 
-   O processo poderá ser revertido através da opção "Reativer Inscrição".
+   O processo poderá ser revertido através da opção "Reativar Inscrição".
 
 
 Servidores
@@ -529,7 +529,7 @@ Relatórios
 
 **Passo 2:** Acessar menu "GESTÃO DE PESSOAS - Programa de Gestão - Relatórios - Atividades dos Planos".
 
-.. image:: menu-relatorio-atividade-plano.png
+.. image:: menu-relatorio-atividadeplano.png
 
 **Passo 3:** Visualizar dados das atividades.
 
@@ -559,11 +559,11 @@ Relatórios
 
 .. image:: menu-qualitativo.png
 
-**Passo 3:** Para visualizar as faltas em plano de trabalho, selecione "Faltas dos Planos".
+**Passo 3:** Para visualizar as faltas em plano de trabalho, selecione "Faltas em Planos".
 
 .. image:: relatorio-faltas-plano.png
 
-**Passo 4:** Para visualizar as faltas em plano de trabalho, selecione "Faltas das Atividades".
+**Passo 4:** Para visualizar as faltas em plano de trabalho, selecione "Faltas em Atividades".
 
 .. image:: relatorio-faltas-atividade.png
 
