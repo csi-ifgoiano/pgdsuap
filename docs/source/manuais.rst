@@ -66,7 +66,7 @@ Cadastro de Periodicidade
 
    * O campo "Descrição" deve conter a descrição da periodicidade;
    * O campo "Quantidade de Dias" deve conter a quantidade de dias da periodicidade;
-   * O campo "Peso das Faltas" deve conter o valor que será multiplicado cada falta do plano de trabalho com aquela periodicidade. Exemplo: se o plano mensal tem peso 4, cada falta que o servidor levar em planos pensais será multiplicada por 4.
+   * O campo "Peso das Faltas" deve conter o valor que será multiplicado cada falta do plano de trabalho com aquela periodicidade. Exemplo: se o plano mensal tem peso 4, cada falta que o servidor levar em planos mensais será multiplicada por 4.
 
 
 Cadastro de Tabela de Atividades
