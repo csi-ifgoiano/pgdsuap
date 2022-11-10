@@ -184,6 +184,27 @@ Caso o programa de gestão tenha etapa de inscrição, os reponsáveis pelo PGD 
 
    O responsável pelo programa de gestão pode deferir ou indeferir a inscrição realizada.
 
+Desligamento de servidores
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Ôs responsáveis pelo PGD podem desligar servidores do programa de gestão, logo, os mesmos ficarão impossibilitados de gerar novos planos.
+
+**Passo 1:** Acessar o SUAP.
+
+.. image:: suap.png
+
+**Passo 2:** Acessar o menu "GESTÃO DE PESSOAS - Programa de Gestão - Inscrições", na aba "Deferidas", e selecionar "Desligar servidor"
+
+.. image:: desligar-inscricao.png
+
+**Passo 3:** Desmarcar a opção "Ativa" e apresentar "Justificativa para Desligamento".
+
+.. image:: form-desligar-inscricao.png
+
+.. Note::
+
+   O processo poderá ser revertido através da opção "Reativer Inscrição".
+
 
 Servidores
 ------------
