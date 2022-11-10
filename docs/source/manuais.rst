@@ -360,6 +360,8 @@ O servidor pode visualizar seu quadro geral de participação no PGD através do
 
 .. image:: meu-boletim-2.png
 
+.. image:: meu-boletim-3.png
+
 Caso haja necessidade de correção, o servidor pode reabrir o plano de trabalho. Para isso:
 
 **Passo 1:** Acessar o SUAP.
