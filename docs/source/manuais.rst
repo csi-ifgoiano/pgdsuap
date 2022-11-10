@@ -195,11 +195,11 @@ Desligamento de servidores
 
 **Passo 2:** Acessar o menu "GESTÃO DE PESSOAS - Programa de Gestão - Inscrições", na aba "Deferidas", e selecionar "Desligar servidor"
 
-.. image:: desligar-inscricao.png
+.. image:: desligar-servidor.png
 
 **Passo 3:** Desmarcar a opção "Ativa" e apresentar "Justificativa para Desligamento".
 
-.. image:: form-desligar-inscricao.png
+.. image:: form-desligar-servidor.png
 
 .. Note::
 
