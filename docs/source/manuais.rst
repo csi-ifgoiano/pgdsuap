@@ -125,7 +125,9 @@ Cadastro de Editais
    * O campo "Arquivo do Edital", deve conter o arquivo em formato .pdf do edital, caso este exista;
    * O campo "Termo de Compromisso" deve conter o texto do termo de compromisso, que receberá aceite dos candidatos ao programa de gestão;
    * O campo "Coordenadores do Edital" indica quais usuários receberão permissão para gerir o edital e avaliar inscrições;
-   * O campo "Quantidade Máxima de Faltas" deve conter o valor máximo de faltas que um servidor pode obter no PGD para não ser desligado. São consideradas faltas no programa de gestão o envio de plano depois da data de início (encaminhamento com atraso), realização da entrega do plano após prazo (dias corridos) definido em edital para entrega, e atividade não entregue do plano de trabalho (nota menor que a mínima definida no edital);   
+   * O campo "Quantidade Máxima de Faltas" deve conter o valor máximo de faltas que um servidor pode obter no PGD para não ser desligado. São consideradas faltas no programa de gestão o envio de plano depois da data de início (encaminhamento com atraso), realização da entrega do plano após prazo (dias corridos) definido em edital para entrega, e atividade não entregue do plano de trabalho (nota menor que a mínima definida no edital); 
+   * O campo "Quantidade de Dias para Entrega" deve conter a quantidade de dias corridos que o participante do programa de gestão tem para entregar a atividade após o fim da vigência do plano. Caso a atividade seja entregue depois dessa data, o sistema gerará falta de entrega com atraso;
+   * O campo Nota Mínima para Atividade Entregue" deve conter a nota mínima que o candidato deve receber na avaliação da entrega da atividade para que a atividade seja considerada "Entregue". Caso ele seja avaliado com nota menor, a atividade será considerada "Não Entregue". Caso não seja definida nota mínima no edital, qualquer atividade com nota menor que 5 será considerada "Não Entregue";
    * O campo "Permite anexo?" caso marcado, irá exigir que os candidatos enviem um anexo no formato .pdf no ato de inscrição;
    * O campo "Descrição do Anexo da Inscrição" deve conter a descrição do anexo que será anexado no ato de inscrição e só deve ser preenchido caso o campo "Permite Anexo?" esteja marcado;
    * O campo "Url do Curso Obrigatório para Inscrição" deve conter o link para o curso obrigatório que será exigido certificado no ato de inscrição no programa de gestão;
@@ -464,8 +466,8 @@ A chefia também pode acompanhar as situações dos planos através da tela inic
 .. image:: quadro-pgd.png
 
 
-Relatórios Públicos
---------------------
+Relatórios
+-----------
 
 **Painel Público de Indicadores**
 
@@ -497,5 +499,51 @@ Relatórios Públicos
 **Passo 3:** Selecionar "Planos de Trabalho"
 
 .. image:: consulta-planos-trabalho.png
+
+**Atividades dos Planos**
+
+**Passo 1:** Acessar o SUAP.
+
+.. image:: suap.png
+
+**Passo 2:** Acessar menu "GESTÃO DE PESSOAS - Programa de Gestão - Relatórios - Atividades dos Planos".
+
+.. image:: menu-relatorio-atividade-plano.png
+
+**Passo 3:** Visualizar dados das atividades.
+
+.. image:: relatorio-atividadeplano.png
+
+**Situação dos Servidores**
+
+**Passo 1:** Acessar o SUAP.
+
+.. image:: suap.png
+
+**Passo 2:** Acessar menu "GESTÃO DE PESSOAS - Programa de Gestão - Relatórios - Situação dos Servidores".
+
+.. image:: menu-relatorio-situacao-servidores.png
+
+**Passo 3:** Visualizar dados das atividades.
+
+.. image:: relatorio-situacao-servidores.png
+
+**Qualitativo**
+
+**Passo 1:** Acessar o SUAP.
+
+.. image:: suap.png
+
+**Passo 2:** Acessar menu "GESTÃO DE PESSOAS - Programa de Gestão - Relatórios - Qualitativo".
+
+.. image:: menu-qualitativo.png
+
+**Passo 3:** Para visualizar as faltas em plano de trabalho, selecione "Faltas dos Planos".
+
+.. image:: relatorio-faltas-plano.png
+
+**Passo 4:** Para visualizar as faltas em plano de trabalho, selecione "Faltas das Atividades".
+
+.. image:: relatorio-faltas-atividade.png
 
 
