@@ -52,7 +52,7 @@ Cadastro de Periodicidade
 
 **Passo 2**: Acessar o menu "GESTÃO DE PESSOAS - Cadastros - Periodicidades".
 
-.. image:: menu-periodicidades.png
+.. image:: menu-periodicidade.png
 
 **Passo 3**: Selecionar "Adicionar Periodicidade dos Planos".
 
