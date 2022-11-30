@@ -547,7 +547,7 @@ Relatórios
 
 .. image:: menu-relatorio-situacao-servidores.png
 
-**Passo 3:** Visualizar dados das atividades.
+**Passo 3:** Visualizar dados dos servidores.
 
 .. image:: relatorio-situacao-servidores.png
 
